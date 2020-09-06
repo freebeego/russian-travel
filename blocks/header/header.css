@@ -2,5 +2,17 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin: 16px 16px 0 16px;
+  margin: 16px 16px 0;
+}
+
+@media screen and (min-width: 425px) {
+  .header {
+    margin: 28px 24px 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    margin: 28px 48px 0;
+  }
 }
