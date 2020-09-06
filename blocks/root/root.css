@@ -29,4 +29,17 @@
   background-color: #2A2C2F;
   color: white;
   font-family: Inter, Arial, sans-serif;
+  padding: 16px 5% 24px;
 }
+
+  @media screen and (min-width: 768px) {
+    .root {
+      padding: 28px 5% 24px;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .root {
+      padding: 28px 5% 24px;
+    }
+  }
