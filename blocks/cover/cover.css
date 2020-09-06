@@ -1,9 +1,13 @@
 .cover {
   background-image: url('../../images/cover-trains.jpg');
   margin-top: 64px;
-  width: 100%;
+  /*min-height: 200px;*/
+  height: 62.5vw;
+  /*padding-top: 62.5vw;*/
   background-size: cover;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .cover:before {
@@ -15,4 +19,11 @@
   right: 0;
   top: 0;
   bottom: 0;
+  transition: opacity .3s;
+}
+
+@media screen and (min-width: 1024px) {
+  .cover:hover:before {
+    opacity: 0.8;
+  }
 }

@@ -5,3 +5,7 @@
   margin-bottom: 32px;
   display: block;
 }
+
+.footer__link:hover {
+  opacity: 0.8;
+}
