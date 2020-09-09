@@ -5,3 +5,6 @@
 ---
 
 Используется css технологии: flex, grid  тд.
+
+
+* [Ссылка на финальную версию страницы.](https://freebeego.github.io/russian-travel/)
