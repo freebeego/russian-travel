@@ -4,3 +4,29 @@
   gap: 12px;
   grid-template-columns: 1fr;
 }
+
+@media screen and (min-width: 425px) {
+  .photo-grid {
+    margin-top: 88px;
+    gap: 16px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .photo-grid {
+    margin-top: 92px;
+    gap: 14px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .photo-grid {
+    position: relative;
+    width: 92vw;
+    left: calc((10vw + 20px - 4vw) * -1);
+    gap: 16px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
