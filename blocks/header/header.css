@@ -3,3 +3,11 @@
   justify-content: flex-end;
   align-items: center;
 }
+
+@media screen and (min-width: 1280px) {
+  .header {
+    position: relative;
+    width: 92vw;
+    left: calc((10vw + 20px - 4vw) * -1);
+  }
+}
