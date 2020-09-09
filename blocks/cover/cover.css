@@ -23,7 +23,17 @@
   transition: opacity .3s;
 }
 
+@media screen and (min-width: 768px) {
+  .cover {
+    margin-top: 88px;
+  }
+}
+
 @media screen and (min-width: 1024px) {
+  .cover {
+    margin-top: 92px;
+  }
+
   .cover:hover:before {
     opacity: 0.8;
   }
