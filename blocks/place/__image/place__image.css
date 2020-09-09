@@ -1,4 +1,16 @@
 .place__image {
-  width: 110%;
-  margin-left: -5%;
+  width: calc(100% + (10vw));
+  position: relative;
+  left: -5vw;
+  /*margin-left: -5vw;*/
+  /*Какая разница так или отприцательными марджинами двигать не понятно
+  все же работает без скролов и в данном случае врятли чему то помешает.
+  Ерунда какая то*/
+}
+
+@media screen and (min-width: 768px) {
+  .place__image {
+    left: 0;
+    width: 100%;
+  }
 }

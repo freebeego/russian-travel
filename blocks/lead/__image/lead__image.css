@@ -1,5 +1,27 @@
 .lead__image {
   margin-top: 40px;
-  width: 110%;
-  margin-left: -5%;
+  width: calc(100% + (10vw));
+  /*margin-left: -5vw;*/
+  position: relative;
+  left: -5vw;
 }
+
+@media screen and (min-width: 768px) {
+  .lead__image {
+    margin-top: 56px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__image {
+    left: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__image {
+    margin-top: 64px;
+  }
+}
+
