@@ -6,6 +6,15 @@
   display: block;
 }
 
-.footer__link:hover {
-  opacity: 0.8;
+@media screen and (min-width: 768px) {
+  .footer__link {
+    margin-bottom: 0;
+    margin-right: 18px;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .footer__link:hover {
+    opacity: 0.8;
+  }
 }
