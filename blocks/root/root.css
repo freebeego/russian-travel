@@ -1,52 +1,28 @@
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('../../fonts/Inter-Regular.woff2') format("woff2"),
-  url('../../fonts/Inter-Regular.woff') format("woff");
-}
-
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url('../../fonts/Inter-Bold.woff2') format("woff2"),
-  url('../../fonts/Inter-Bold.woff') format("woff");
-}
-
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url('../../fonts/Inter-Black.woff2') format("woff2"),
-  url('../../fonts/Inter-Black.woff') format("woff");
-}
-
 .root {
   background-color: #2A2C2F;
   color: white;
   font-family: Inter, Arial, sans-serif;
-  padding: 16px 5vw 24px;
+  /*padding: 16px 16px 24px;*/
+  /*display: flex;
+  flex-direction: column;
+  justify-content: center;*/
 }
-
+/*
   @media screen and (min-width: 768px) {
     .root {
-      padding: 28px 5vw 24px;
+      padding: 28px 24px 24px;
     }
   }
 
   @media screen and (min-width: 1024px) {
     .root {
-      padding: 28px 5vw 24px;
+      padding: 28px 48px 24px;
     }
   }
 
 @media screen and (min-width: 1280px) {
   .root {
-    padding-left: calc(10vw + 20px);
-    padding-right: calc(10vw + 20px);
+    padding-left: 148px;
+    padding-right: 148px;
   }
-}
+}*/

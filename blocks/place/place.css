@@ -11,16 +11,29 @@
 
 @media screen and (min-width: 768px) {
   .place {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 966fr 1000fr;
     margin-bottom: 72px;
-    gap: 30px;
+    gap: 28px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .place {
     /*grid-template-rows: 1fr 3fr;*/
-    gap: 40px;
+    gap: 32px;
     margin-bottom: 80px;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .place {
+    gap: 40px;
+    grid-template-columns: 951fr 1000fr;
+  }
+}
+/*в чем принципиальна разница размера колонок если разница в 20 пикселов
+это пиксел перфект?)
+Да значения шаблона колонок получились невменяемые, но переверстывать на флекс как то лень
+в чек листе четко написано:
+Ширина элементов и отступы отличаются от макета не более, чем на 30px на контрольных точках:
+Я руководствовался этим и старался сделать код по возможности более компактным и ясным(изначально)*/

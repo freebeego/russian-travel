@@ -24,9 +24,9 @@
 
 @media screen and (min-width: 1280px) {
   .photo-grid__list {
-    position: relative;
-    width: 92vw;
-    left: calc((10vw + 20px - 4vw) * -1);
+    /*position: relative;
+    width: calc(100vw - 96px);
+    left: -100px;*/
     gap: 16px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
