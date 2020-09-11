@@ -1,26 +1,18 @@
 .lead__image {
   margin-top: 40px;
-  /*width: calc(100% + 32px);*/
-  /*left: -16px;*/
   min-height: 200px;
   width: 100%;
-  /*margin-left: -5vw;*/
-  /*position: relative;*/
 }
 
 @media screen and (min-width: 768px) {
   .lead__image {
     margin-top: 56px;
-    /*width: calc(100% + 48px);
-    left: -24px;*/
     min-height: 480px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .lead__image {
-    /*left: 0;
-    width: 100%;*/
     min-height: 580px;
   }
 }

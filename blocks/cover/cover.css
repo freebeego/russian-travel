@@ -28,16 +28,12 @@
 @media screen and (min-width: 768px) {
   .cover {
     margin-top: 88px;
-    /*left: -24px;
-    width: calc(100% + 48px);*/
   }
 }
 
 @media screen and (min-width: 1024px) {
   .cover {
     margin-top: 92px;
-    /*left: -48px;
-    width: calc(100% + (96px));*/
   }
 
   .cover:hover:before {
@@ -47,8 +43,6 @@
 
 @media screen and (min-width: 1280px) {
   .cover {
-    /*width: calc(100vw - 96px);
-    left: -100px;*/
     height: 58vw;
     margin-left: auto;
     margin-right: auto;
